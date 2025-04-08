@@ -144,4 +144,4 @@ vim.opt.guicursor = {
   "r:hor50-Cursor/lCursor-blinkwait100-blinkon100-blinkoff100",
 }
 
-vim.api.nvim_set_keymap("n", "<C-s>", ":noh<CR>", { noremap = true, silent = true })
+vim.g.lazyvim_check_order = false
